@@ -1,7 +1,7 @@
 /*Tableau Queries
 Simplified and Cleaned from COVID Portfolio for Vizulization Use*/
 
--- 1.Glabal Numbers
+-- 1.Global Numbers
 
 Select SUM(cast(new_cases as float)) as total_cases, SUM(cast(new_deaths as float)) as total_deaths, SUM(cast(new_deaths as float))/SUM(cast(New_Cases as float))*100 as DeathPercentage
 From PortfolioProject1..COVID_DEATHS
