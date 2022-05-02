@@ -1,3 +1,5 @@
+--COVID_DEATHS Table Updates
+
 SELECT *
 FROM PortfolioProject1..COVID_DEATHS
 ORDER BY 3,4
